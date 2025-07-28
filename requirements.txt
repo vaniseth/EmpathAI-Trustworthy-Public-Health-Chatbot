@@ -1,0 +1,11 @@
+google-generativeai
+datasets
+transformers
+torch
+scikit-learn
+numpy
+python-dotenv
+regex
+pandas
+langchain-text-splitters
+nltk
