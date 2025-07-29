@@ -26,8 +26,17 @@ def main():
                 print("Bot: Take care. Remember, support is always available if you need it.")
                 break
             
-            bot_response = my_chatbot.get_response(user_input)
+            bot_response, is_vague = my_chatbot.get_response(user_input)
             print(f"Bot: {bot_response}")
+
+            # if vague ask follow up question
+            while is_vague:
+                follow_up = my_chatbot.generate_follow_up(user_input)
+                print(f"Bot (follow-up): {follow_up}")
+                clarification = input("You: ")
+
+                bot_response, is_vague = my_chatbot.get_response(clarification)
+                print(f"Bot: {bot_response}")
 
     except (KeyboardInterrupt, EOFError):
         print("\nBot: Conversation ended. Stay safe.")
