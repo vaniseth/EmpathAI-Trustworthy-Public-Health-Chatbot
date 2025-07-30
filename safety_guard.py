@@ -1,4 +1,3 @@
-# safety_guard.py
 # This file contains the SafetyGuard class, dedicated to detecting and
 # mitigating prompt injection and other harmful inputs.
 
