@@ -12,7 +12,7 @@ With advancements in AI, conversational agents are increasingly being used in he
 
 ### Setup
 
-We recommend using a Python virtual environment for easy management of dependencies. 
+We recommend using a Python virtual environment for easy management of dependencies.
 
 ```bash
 python3 -m venv venv
