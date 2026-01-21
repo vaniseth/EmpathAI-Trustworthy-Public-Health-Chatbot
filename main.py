@@ -7,6 +7,7 @@ import logging
 import os
 
 #Test Check Ashish
+# New update
 
 os.makedirs(os.path.dirname(config.DEFAULT_LOG_PATH), exist_ok=True)
 
