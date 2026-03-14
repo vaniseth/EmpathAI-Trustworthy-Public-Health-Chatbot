@@ -1,0 +1,3 @@
+env
+.env
+knowledge_base_embeddings.csv
