@@ -15,7 +15,7 @@ if not GOOGLE_API_KEY:
 DEFAULT_GENERATIVE_LLM_PROVIDER = "google"
 
 # Google Gemini
-DEFAULT_GOOGLE_MODEL_ID = "gemini-2.0-flash"
+DEFAULT_GOOGLE_MODEL_ID = "gemini-2.5-flash"
 DEFAULT_GOOGLE_GENERATION_CONFIG = {
     "temperature": 0.5,
     "top_p": 0.95,
