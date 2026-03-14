@@ -22,7 +22,7 @@ class SafetyGuard:
         self.url_regex = re.compile(r'https?:\/\/[^\s/$.?#].[^\s]*', re.IGNORECASE)
         self.send_data_regex = re.compile(r'\b(send|email|post|forward) this (to|log|breakdown)\b', re.IGNORECASE)
 
-    def check_prompt(self, prompt: str, history: list) -> tuple[bool, str | None]:
+    def check_prompt(self, prompt: str, history: list) -> tuple:
         """
         Checks a prompt against a series of safety rules.
 
