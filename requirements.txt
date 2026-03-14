@@ -9,3 +9,4 @@ regex
 pandas
 langchain-text-splitters
 nltk
+streamlit
